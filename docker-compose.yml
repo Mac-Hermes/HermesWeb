@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  app:
+    image: node:20-slim
+    working_dir: /app
+    command: bash -lc "npm install && npm run build && npm run start"
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=file:./prisma/dev.db
+      - JWT_SECRET=change-me
+      - WHATSAPP_TOKEN=
+      - WHATSAPP_PHONE_ID=
+      - NEXT_PUBLIC_BASE_URL=http://localhost:3000
+    restart: unless-stopped
