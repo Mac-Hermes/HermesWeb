@@ -4,8 +4,11 @@ services:
     build: .
     ports:
       - "3000:3000"
+      - "80:80"
     environment:
       - NODE_ENV=production
+      - PORT=80
+      - HOST=0.0.0.0
       - DATABASE_URL=file:/app/prisma/dev.db
       - JWT_SECRET=change-me
       - WHATSAPP_TOKEN=
