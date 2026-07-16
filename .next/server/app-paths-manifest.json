@@ -1,0 +1,22 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/api/admin/prisma/generate/route": "app/api/admin/prisma/generate/route.js",
+  "/api/admin/prisma/migrate/route": "app/api/admin/prisma/migrate/route.js",
+  "/api/admin/prisma/seed/route": "app/api/admin/prisma/seed/route.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/register/route": "app/api/auth/register/route.js",
+  "/api/orders/route": "app/api/orders/route.js",
+  "/api/orders/status/route": "app/api/orders/status/route.js",
+  "/api/pizzas/[id]/route": "app/api/pizzas/[id]/route.js",
+  "/api/pizzas/route": "app/api/pizzas/route.js",
+  "/api/whatsapp/notify/route": "app/api/whatsapp/notify/route.js",
+  "/client/orders/page": "app/client/orders/page.js",
+  "/client/page": "app/client/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/pizzaria/dashboard/page": "app/pizzaria/dashboard/page.js",
+  "/pizzaria/menu/page": "app/pizzaria/menu/page.js",
+  "/pizzaria/orders/page": "app/pizzaria/orders/page.js",
+  "/register/page": "app/register/page.js"
+}
