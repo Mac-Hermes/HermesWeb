@@ -10,5 +10,5 @@ services:
       - JWT_SECRET=change-me
       - WHATSAPP_TOKEN=
       - WHATSAPP_PHONE_ID=
-      - NEXT_PUBLIC_BASE_URL=http://localhost:3000
+      - NEXT_PUBLIC_BASE_URL=http://jg46est9pg5lmgdo110a2did.80.75.221.24.sslip.io
     restart: unless-stopped
